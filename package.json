@@ -1,0 +1,38 @@
+{
+    "name": "mysql-query-connection",
+    "version": "0.1.1",
+    "main": "./lib/mysql-query-connection.js",
+    "description": "Returns connection from the pool",
+    "author": {
+        "name": "Andrei Lavrenyuk",
+        "email": "andrei.lavrenyuk@gmail.com"
+    },
+    "homepage": "http://github.com/ria-com/node-mysql-query-connection/",
+    "directories": {
+        "lib": "./lib",
+        "config": "./config"
+    },
+    "licenses": [
+        "MIT"
+    ],
+    "dependencies": {
+        "config": "0.4.x",
+        "mysql": ">=2.x.x"
+    },
+    "devDependencies": {
+        "jasmine-node": ">=1.3.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ria-com/node-mysql-query-connection"
+    },
+    "engines": {
+        "node": "*"
+    },
+    "scripts": {
+        "test": "node ./node_modules/jasmine-node/lib/jasmine-node/cli.js spec"
+    },
+    "bugs": {
+        "url": "https://github.com/ria-com/node-mysql-query-connection/issues"
+    }
+}
